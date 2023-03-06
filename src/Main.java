@@ -68,64 +68,11 @@ public class Main {
 
 
 // Задание 3:
-        int line_1;
-        for (int i = 1; i < 11; i++) {
-            line_1 = i;
-            System.out.print(line_1 + " ");
-        }
-        System.out.println();
-        int line_2;
-        for (int i = 1; i < 11; i++) {
-            line_2 = i*2;
-            System.out.print(line_2 + " ");
-        }
-        System.out.println();
-        int line_3;
-        for (int i = 1; i < 11; i++) {
-            line_3 = i*3;
-            System.out.print(line_3 + " ");
-        }
-        System.out.println();
-        int line_4;
-        for (int i = 1; i < 11; i++) {
-            line_4 = i*4;
-            System.out.print(line_4 + " ");
-        }
-        System.out.println();
-        int line_5;
-        for (int i = 1; i < 11; i++) {
-            line_5 = i*5;
-            System.out.print(line_5 + " ");
-        }
-        System.out.println();
-        int line_6;
-        for (int i = 1; i < 11; i++) {
-            line_6 = i*6;
-            System.out.print(line_6 + " ");
-        }
-        System.out.println();
-        int line_7;
-        for (int i = 1; i < 11; i++) {
-            line_7 = i*7;
-            System.out.print(line_7 + " ");
-        }
-        System.out.println();
-        int line_8;
-        for (int i = 1; i < 11; i++) {
-            line_8 = i*8;
-            System.out.print(line_8 + " ");
-        }
-        System.out.println();
-        int line_9;
-        for (int i = 1; i < 11; i++) {
-            line_9 = i*9;
-            System.out.print(line_9 + " ");
-        }
-        System.out.println();
-        int line_10;
-        for (int i = 1; i < 11; i++) {
-            line_10 = i*10;
-            System.out.print(line_10 + " ");
+      for (int i = 1; i < 11; i++) {
+            for (int j = 1; j < 11; j++) {
+                System.out.print(i * j + " ");
+            }
+            System.out.println();
         }
     }
 }
